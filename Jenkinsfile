@@ -6,12 +6,12 @@ pipeline {
         }
     }
     stages {
-        stage('Build') {
+        stage('构建') {
             steps {
                 sh 'npm install'
             }
         }
-        state('发布') {
+        stage('发布') {
             steps: {
                 sh 'npm start'
             }
