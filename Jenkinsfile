@@ -11,5 +11,10 @@ pipeline {
                 sh 'npm install'
             }
         }
+        state('发布') {
+            steps: {
+                sh 'npm start'
+            }
+        }
     }
 }
