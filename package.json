@@ -3,14 +3,25 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "react-scripts": "1.0.14"
+    "koa": "^2.6.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node ./app.js",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "description": "This repository is for the [Build a multibranch Pipeline project](https://jenkins.io/doc/tutorials/build-a-multibranch-pipeline-project/) tutorial in the [Jenkins User Documentation](https://jenkins.io/doc/).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/princewck/building-a-multibranch-pipeline-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/princewck/building-a-multibranch-pipeline-project/issues"
+  },
+  "homepage": "https://github.com/princewck/building-a-multibranch-pipeline-project#readme"
 }
